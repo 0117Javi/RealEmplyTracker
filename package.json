@@ -1,0 +1,19 @@
+{
+  "name": "cms",
+  "version": "1.0.0",
+  "description": "Node command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Javi",
+  "license": "ISC",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.1.0",
+    "mysql": "^2.18.1",
+    "mysql-async-simple": "^1.0.3",
+    "util": "^0.12.4"
+  }
+}
